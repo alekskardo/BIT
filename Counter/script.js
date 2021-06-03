@@ -6,13 +6,11 @@ let change = document.getElementById("value");
 let integer = 0;
 
 btnAdd.addEventListener("click", () => {
-  integer++;
-  change.innerHTML = integer;
+  change.innerHTML++;
 });
 
 btnSub.addEventListener("click", () => {
-  integer--;
-  change.innerHTML = integer;
+  change.innerHTML--;
 });
 
 restart.addEventListener("click", () => {
