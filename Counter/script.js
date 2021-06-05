@@ -3,7 +3,6 @@ let btnSub = document.querySelector(".decrease");
 let restart = document.querySelector(".reset");
 
 let change = document.getElementById("value");
-let integer = 0;
 
 btnAdd.addEventListener("click", () => {
   change.innerHTML++;
@@ -14,5 +13,6 @@ btnSub.addEventListener("click", () => {
 });
 
 restart.addEventListener("click", () => {
+  
   change.innerHTML = 0;
 });
